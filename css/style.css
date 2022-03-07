@@ -191,8 +191,8 @@ nav a {
     color: #3A5F56;
     align-items: center;
 }
-.main4 {
-    margin: 100px auto;
+.main4main {
+    /* margin: 100px auto; */
     padding: 80px;
     width: 800px;
     background: #F4F3F0;
@@ -200,6 +200,14 @@ nav a {
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
+}
+.main4 {
+    padding: 100px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .mainbtn4{
     color: #fff;
@@ -280,5 +288,11 @@ li{
 .bgimg4 {
     position: absolute;
     right: 0;
+    bottom: 0;
+}
+.bgimg5 {
+    position: absolute;
+    
+    left: 0;
     bottom: 0;
 }
