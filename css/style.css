@@ -1,13 +1,16 @@
 body {
     margin: 0;
 }
+
 .container {
     position: relative;
 }
+
 .row {
     max-width: 1440px;
     margin: auto;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,24 +18,34 @@ body {
     color: #3A5F56;
     margin: 10px 0;
 }
+
 .logo {
     margin: 10px;
 }
+
 .navbutton {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .navbutton div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+
+.swiper {
+    width: 600px;
+    height: auto;
+}
+
 a {
     text-decoration: none;
     color: #fff;
 }
+
 .button {
     border: 1px solid #3A5F56;
     padding: 10px;
@@ -41,16 +54,20 @@ a {
     color: #fff;
     margin-left: 20px;
 }
+
 .button div {
     margin: 0 8px;
 }
+
 .button a {
     color: #fff;
 }
+
 nav a {
     color: #3A5F56;
     padding: 20px;
 }
+
 .cartnum {
     border: 1px solid #fff;
     border-radius: 50%;
@@ -60,8 +77,9 @@ nav a {
     background: #fff;
     color: #3A5F56;
     padding-left: 5px;
-  
+
 }
+
 .main1 {
     display: flex;
     justify-content: space-between;
@@ -76,11 +94,13 @@ nav a {
     font-size: 48px;
     line-height: 58px;
     color: #3A5F56;
-    
+
 }
+
 .mainbutton {
     border: 1px solid #3A5F56;
-    border-radius: 6px;;
+    border-radius: 6px;
+    ;
     background: #3A5F56;
     border-radius: 6px;
     color: #fff;
@@ -88,14 +108,18 @@ nav a {
     text-align: center;
     padding: 11px 18px;
 }
+
 .mainbanner {
     margin: 0 auto;
 }
+
 .bgcolor {
     background: #F4F3F0;
 }
-.main2, .main3{
-    
+
+.main2,
+.main3 {
+
     align-items: center;
     padding: 100px 0;
     font-family: Roboto;
@@ -108,9 +132,10 @@ nav a {
 .maintitle2 {
     text-align: center;
     padding-bottom: 47px;
-    color:#3A5F56;
+    color: #3A5F56;
 
 }
+
 .maintitle2 h1 {
     font-family: Source Serif Pro;
     font-style: normal;
@@ -129,7 +154,7 @@ nav a {
     justify-content: center;
     height: 48px;
     width: 48px;
-    
+
 }
 
 .main2blocks {
@@ -143,54 +168,63 @@ nav a {
     border-radius: 20px;
     margin-bottom: 25px;
 }
- 
-.main2blocks p{
+
+.main2blocks p {
     font-size: 16px;
 }
-.blockbutton{
+
+.blockbutton {
     padding: 10px 0 0 0;
 }
+
 .groupofblocksmain2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.groupofblocksmain2.main2blocks{
-    width: 33%; 
+.groupofblocksmain2.main2blocks {
+    width: 33%;
 }
+
 .bgcolor3 {
     background: #F4F3F0;
 }
 
-.maintitle2 span{
+.maintitle2 span {
     color: red;
 }
+
 .mainblocks3 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
-.blockmain3{
+
+.blockmain3 {
     width: 379px;
     height: 438px;
     border: 1px solid transparent;
     border-radius: 15px;
     background: #fff;
 }
-.block3text{
+
+.block3text {
     text-align: center;
 }
+
 .main3btn {
     margin-top: 30px;
     text-align: center;
     font-size: 17px;
 }
-.maintitle4{    
+
+.maintitle4 {
     color: #3A5F56;
     align-items: center;
 }
+
 .main4main {
     /* margin: 100px auto; */
     padding: 80px;
@@ -201,6 +235,7 @@ nav a {
     justify-content: space-between;
     border-radius: 20px;
 }
+
 .main4 {
     padding: 100px auto;
     align-items: center;
@@ -209,90 +244,109 @@ nav a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.mainbtn4{
+
+.mainbtn4 {
     color: #fff;
     border: 1px solid #3A5F56;
     background: #3A5F56;
     padding: 15px 20px;
     border-radius: 6px;
-}   
-footer{
+}
+
+footer {
     background: #292C32;
 }
-.main5{
+
+.main5 {
     padding: 135px 100px;
-    
+
 }
-.main5blocks span li{
+
+.main5blocks span li {
     color: #B87D58;
     padding-bottom: 20px;
 }
+
 .main5blocks {
     align-items: baseline;
     display: flex;
-    
+
     flex-wrap: wrap;
 }
-.block1{
+
+.block1 {
     width: 25%;
 }
-.main5title{
+
+.main5title {
     text-align: center;
     margin-bottom: 75px;
 }
+
 .block1 input {
     padding: 15px;
     border-radius: 8px;
     margin-top: 20px;
 
 }
-li{
+
+li {
     list-style-type: none;
     color: #fff;
     padding: 10px 0;
 }
-.input{
+
+.input {
     position: relative;
 }
+
 .btn {
     position: absolute;
     border: 1px solid #292C32;
 }
+
 .lastblock {
     margin-top: 30px;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
+
 .rights {
     color: #fff;
 }
-.socialnetwork img{
+
+.socialnetwork img {
     margin: 10px;
 }
-.bgimg2{
+
+.bgimg2 {
     position: absolute;
     left: 0;
     bottom: 0;
 }
-.bgimg1{
+
+.bgimg1 {
     position: absolute;
     right: 0;
     top: 0;
 }
-.bgimg3{
+
+.bgimg3 {
     position: absolute;
     bottom: 0;
     left: 0;
 }
+
 .bgimg4 {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
 .bgimg5 {
     position: absolute;
-    
+
     left: 0;
     bottom: 0;
 }
